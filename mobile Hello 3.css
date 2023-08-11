@@ -1,0 +1,370 @@
+
+
+
+@media screen and (max-width:1200px){
+	.mobile-menu button {
+		display: none;
+	}
+	.menu-item {
+		width: 80%;
+	}
+
+
+/*----------Contact Section----------*/
+
+
+.contact-container {
+	flex-wrap: wrap;
+}
+.contact-section {
+	width: 90%;
+	padding: 50px 10px 00px 10px;
+}
+.contact-section h1 {
+	font-size: 35px;
+	padding: 15px;
+}
+.contact-img {
+	display: none;
+}
+.contact-a {
+	width: 100%;
+	height: auto;
+	margin-left: 15px;
+}
+.contact-a div {
+	width: 50%;
+}
+.box {
+	font-size: 16px;
+}
+.textarea {
+	height: 150px;
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:950px){
+	.contain {
+		display: none;
+	}
+}
+
+@media screen and (max-width:950px){
+	.menu-item {
+		display: none;
+	}
+	.logo {
+		width: 60%;	
+		text-align: left;
+	}
+	.mobile-menu {
+		width: 40%;
+		text-align: center;
+	}
+	.mobile-menu i {
+		display: inline-block;
+		line-height: 100px;
+		padding-left: 100px;
+	}
+
+
+
+
+/*------------Home Section-----------*/
+
+
+
+.home-container {
+	height: auto;
+	flex-wrap: wrap;
+}
+
+.home-section {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 100px 30px 00px 30px;
+}
+.home-section h1 {
+	font-size: 40px;
+}
+
+.home-img {
+	width: 100%;
+}
+.home-img img {
+	width: 70%;
+}
+
+
+
+
+
+/*----------About Section----------*/
+
+
+.about-container {
+	flex-wrap: wrap;
+	margin: 100px 00px 100px 00px;
+	padding-left: 50px;
+}
+
+.about-section {
+	width: 100%;
+	height: auto;
+	text-align:left;
+	padding: 40px 20px;
+}
+
+.about-section h1 {
+	font-size: 33px;
+	font-weight: 700;
+}
+
+.about-img {
+	width: 90%;
+	height: 450px;
+}
+
+
+
+
+/*----------Team Section-------------*/
+
+.team-heading h1 {
+	font-size: 35px;
+}
+.team-heading p {
+	padding: 00px 20px;
+}
+
+
+
+
+
+/*---------Service Section--------*/
+
+
+.service-container {
+	width: 100%;
+	height: auto;
+	background: #F4F9FD;
+	margin: 80px 00px;
+	padding: 90px 00px;
+}
+
+.service-heading h1 {
+	font-size: 35px;
+}
+
+.service-heading p {
+	padding: 00px 20px;
+}
+
+
+
+
+/*-----------------------------*/
+
+
+.success-container {
+	width: 100%;
+	height: auto;
+	flex-wrap: wrap;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
+.success-a {
+	width: 70%;
+	height: 400px;
+	margin-left: 00px;
+	min-width: 450px;
+}
+
+.success-b {
+	width: 70%;
+	padding: 50px 00px 0px 0px;
+	min-width: 400px;
+}
+.success-b h1 {
+	font-size: 35px;
+}
+
+
+
+
+
+/*--------Review Section-----------*/
+
+.marque-heading h1 {
+	font-size: 35px;
+}
+.marque-heading p {
+	padding: 00px 15px 40px 15px;
+}
+
+
+
+
+
+/*-----------FAQ Section------------*/
+
+
+.faq-heading {
+	text-align: center;
+	padding: 00px 20px 30px 20px;
+}
+.faq-heading h1 {
+	font-size: 32px;
+}
+.faq-sub-container {
+
+	flex-wrap: wrap;
+}
+.faq-img {
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.faq-img img {
+	width: 100%;
+	height: auto;
+}
+.faq-section {
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.box-head {
+	padding: 15px 00px 10px 15px;
+}
+.box-head h4 {
+	font-size: 20px;
+}
+.box-head i {
+	float: right;
+	padding:5px 20px 00px 00px;
+}
+.boxx {
+	padding: 20px;
+	font-size: 16px;
+}
+
+
+
+
+
+/*-----------Blog Section----------*/
+
+
+.blog-heading {
+	padding: 30px 10px 30px 20px;
+}
+.blog-heading h1 {
+	font-size: 35px;
+	padding: 10px 00px 10px 00px ;
+}
+
+
+
+.sub-container {
+	height: auto;
+	justify-content: center;
+}
+.sub-container div{
+	width: 80%;
+}
+.sub-a h1 {
+	font-size: 35px;
+}
+.sub-a p {
+	padding-bottom: 20px;
+}
+.sub-box {
+	width: 60%;
+}
+.sub-btn {
+	width: 130px;
+	font-size: 18px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+	.faq-section {
+	width: 90%;
+}
+}
+
+
+
+
+@media screen and (max-width:550px){
+	/*----------Contact Section----------*/
+
+.contact-a div {
+	width: 100%;
+}
+
+
+/*-----------FAQ Section------------*/
+
+
+.faq-heading {
+	text-align: center;
+	padding: 00px 20px 30px 20px;
+}
+.faq-heading h1 {
+	font-size: 32px;
+}
+.faq-sub-container {
+
+	flex-wrap: wrap;
+}
+.faq-img {
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.faq-img img {
+	width: 100%;
+	height: auto;
+}
+.faq-section {
+	width: 96%;
+	height: auto;
+	float: left;
+}
+.box-head {
+	padding: 15px 00px 10px 10px;
+}
+.box-head h4 {
+	font-size: 20px;
+}
+.box-head i {
+	float: right;
+	padding:5px 20px 00px 00px;
+}
+.boxx {
+	padding: 20px;
+	font-size: 16px;
+}
+
+}
